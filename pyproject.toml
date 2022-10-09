@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-namespace-demo-app1"
-version = "0.3.0"
+version = "0.4.0"
 description = "app1 as sub-command to main cli from shared"
 authors = ["Sury Soni <suryasoni@gmail.com>"]
 readme = "README.md"
@@ -10,7 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-python-namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git",  tag = "0.4.0"}
+python-namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git",  tag = "0.5.0"}
 
 [tool.poetry.scripts]
 demo-cli = "namespace_demo.main_app1:cli"

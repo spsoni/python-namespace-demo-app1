@@ -46,8 +46,8 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "python-namespace-demo-base"
-version = "0.4.0"
-description = "base"
+version = "0.5.0"
+description = "base and shared git repository"
 category = "main"
 optional = false
 python-versions = "^3.10"
@@ -60,8 +60,8 @@ requests = "^2.28.1"
 [package.source]
 type = "git"
 url = "git@github.com:spsoni/python-namespace-demo-base.git"
-reference = "0.4.0"
-resolved_reference = "85c93725d9c7f8caaf081ffaf83b5c0fe6301133"
+reference = "0.5.0"
+resolved_reference = "87f873b3497af5e5ee36a5e6ab0543f1192151df"
 
 [[package]]
 name = "requests"
@@ -97,7 +97,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "5bb0f6e801369cebc1c3d210229a3657dc1ab61877c335967ca0d63038bbae04"
+content-hash = "fc3fd8e9d526f8177f7311b8c993665426241132dc650a36d4cbde059c48e96c"
 
 [metadata.files]
 certifi = [
