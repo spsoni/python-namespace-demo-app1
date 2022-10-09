@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "namespace-demo-app1"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Sury Soni <suryasoni@gmail.com>"]
 readme = "README.md"
@@ -10,7 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git",  tag = "0.3.0"}
+namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git",  tag = "0.2.0"}
 
 
 [build-system]
